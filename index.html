@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(17, 17, 61);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.3rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: 60%;
+        }
+
+        .purple {
+            color: palevioletred;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 218);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1 {
+            font: 2rem;
+        }
+        .secondSection .box {
+            background: white;
+            width: 60vw;
+            /* change width for box exp  */
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .verticle {
+            height: 93px;
+            width: 1px;
+            background: white;
+            margin: 0 140px;  
+            /* change margin for exp line */
+        }
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .verticle-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        
+        }
+        .verticle-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        .projectsSection {
+            max-width: 80vw;
+            margin: 50px auto;
+        }
+
+        .projectsSection h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin: 20px 0;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            color: palevioletred;
+        }
+
+        .project-desc {
+            color: gray;
+            margin: 5px 0;
+        }
+
+        .project-links a {
+            color: rgb(170, 107, 218);
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #0f0f21;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 80vw;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-content div {
+            margin: 10px;
+        }
+
+        .contact-info {
+            line-height: 1.6;
+        }
+
+        .resume-button {
+            background-color: rgb(170, 107, 218);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .resume-button:hover {
+            background-color: rgb(140, 87, 188);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Akash's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Akash!</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="dev.png" alt="Developer">
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="verticle">
+                    <img class="image-top" src="devloper.png" alt="Developer">
+                    <div class="verticle-title">
+                        Java Developer Intern (2022-2023)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio enim aliquid modi omnis ratione at nulla fugiat quia saepe.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="devloper.png" alt="Developer">
+                    <div class="verticle-title">
+                        Research and Development (2022-2023)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio enim aliquid modi omnis ratione at nulla fugiat quia saepe.
+                    </div>
+                </div>
+                <div class="verticle">
+                    <img class="image-top" src="devloper.png" alt="Developer">
+                    <div class="verticle-title">
+                        Software Developer (2023-Present)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio enim aliquid modi omnis ratione at nulla fugiat quia saepe.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projectsSection">
+            <h1>Projects</h1>
+            <div class="project">
+                <div class="project-title">Algorithm Visualizer</div>
+                <div class="project-desc">Here You can Visualize any Algorithm for better UnderStanding, just click on the link below.</div>
+                <div class="project-links">
+                    <a href="https://project-one-link.com" target="_blank">Live Demo</a>
+                    <a href="https://github.com/akash/project-one" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">HoneyPot Detector</div>
+                <div class="project-desc">When You are buying any product or service from any website, it is very common that you will get a honey pot.so I build a extension when you are buying any token that will detect the honey pot or not</div>
+                <div class="project-links">
+                    <a href="https://project-two-link.com" target="_blank">Live Demo</a>
+                    <a href="https://github.com/akash/project-two" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <p>Contact Information:</p>
+                <p>Email: akashathare41@gmail.com</p>
+                <p>Phone: +91 7719031618</p>
+            </div>
+            <a href="./Akash_Athare_Resume.pdf" class="resume-button" download>Download Resume</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer</i>', '&amp; Blockchain Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
